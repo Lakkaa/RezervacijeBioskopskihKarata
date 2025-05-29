@@ -1,0 +1,1274 @@
+[
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.DaniController",
+    "Method": "GetDani",
+    "RelativePath": "api/Dani",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RezervacijeBioskopskihKarata.Models.Dani, RezervacijeBioskopskihKarata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.DaniController",
+    "Method": "PostDani",
+    "RelativePath": "api/Dani",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dani",
+        "Type": "RezervacijeBioskopskihKarata.Models.Dani",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Dani",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.DaniController",
+    "Method": "GetDani",
+    "RelativePath": "api/Dani/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Dani",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.DaniController",
+    "Method": "PutDani",
+    "RelativePath": "api/Dani/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dani",
+        "Type": "RezervacijeBioskopskihKarata.Models.Dani",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.DaniController",
+    "Method": "DeleteDani",
+    "RelativePath": "api/Dani/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.FilmoviController",
+    "Method": "GetFilmovi",
+    "RelativePath": "api/Filmovi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RezervacijeBioskopskihKarata.Models.Filmovi, RezervacijeBioskopskihKarata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.FilmoviController",
+    "Method": "PostFilmovi",
+    "RelativePath": "api/Filmovi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmovi",
+        "Type": "RezervacijeBioskopskihKarata.Models.Filmovi",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Filmovi",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.FilmoviController",
+    "Method": "GetFilmovi",
+    "RelativePath": "api/Filmovi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Filmovi",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.FilmoviController",
+    "Method": "PutFilmovi",
+    "RelativePath": "api/Filmovi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "filmovi",
+        "Type": "RezervacijeBioskopskihKarata.Models.Filmovi",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.FilmoviController",
+    "Method": "DeleteFilmovi",
+    "RelativePath": "api/Filmovi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.FilmoviController",
+    "Method": "GetProjekcijeByFilm",
+    "RelativePath": "api/Filmovi/projekcijeByFilm/{filmId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RezervacijeBioskopskihKarata.Models.FilmViewModel, RezervacijeBioskopskihKarata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.KorisniciController",
+    "Method": "GetKorisnici",
+    "RelativePath": "api/Korisnici",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RezervacijeBioskopskihKarata.Models.Korisnici, RezervacijeBioskopskihKarata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.KorisniciController",
+    "Method": "PostKorisnici",
+    "RelativePath": "api/Korisnici",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "korisnici",
+        "Type": "RezervacijeBioskopskihKarata.Models.Korisnici",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Korisnici",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.KorisniciController",
+    "Method": "GetKorisnici",
+    "RelativePath": "api/Korisnici/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Korisnici",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.KorisniciController",
+    "Method": "PutKorisnici",
+    "RelativePath": "api/Korisnici/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "korisnici",
+        "Type": "RezervacijeBioskopskihKarata.Models.Korisnici",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.KorisniciController",
+    "Method": "DeleteKorisnici",
+    "RelativePath": "api/Korisnici/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.KorisniciController",
+    "Method": "GetKorisnikByEmail",
+    "RelativePath": "api/Korisnici/ByEmail/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Korisnici",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.KorisniciController",
+    "Method": "KorisniciSaRezervacijama",
+    "RelativePath": "api/Korisnici/Rezervacije",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.KorisniciController",
+    "Method": "KorisnikSaRezervacijama",
+    "RelativePath": "api/Korisnici/Rezervacije/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.KorisniciController",
+    "Method": "GetKorisnikRezervacijeDetails",
+    "RelativePath": "api/Korisnici/Rezervacije/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.ProjekcijeController",
+    "Method": "GetProjekcije",
+    "RelativePath": "api/Projekcije",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RezervacijeBioskopskihKarata.Models.Projekcije, RezervacijeBioskopskihKarata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.ProjekcijeController",
+    "Method": "PostProjekcije",
+    "RelativePath": "api/Projekcije",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projekcije",
+        "Type": "RezervacijeBioskopskihKarata.Models.Projekcije",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Projekcije",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.ProjekcijeController",
+    "Method": "GetProjekcije",
+    "RelativePath": "api/Projekcije/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Projekcije",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.ProjekcijeController",
+    "Method": "PutProjekcije",
+    "RelativePath": "api/Projekcije/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "projekcije",
+        "Type": "RezervacijeBioskopskihKarata.Models.Projekcije",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.ProjekcijeController",
+    "Method": "DeleteProjekcije",
+    "RelativePath": "api/Projekcije/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.ProjekcijeController",
+    "Method": "GetProjekcijeByFilmAndDate",
+    "RelativePath": "api/Projekcije/ByFilm/{filmId}/ByDate/{date}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RezervacijeBioskopskihKarata.Models.ProjekcijaViewModel, RezervacijeBioskopskihKarata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.ProjekcijeController",
+    "Method": "GetProjekcijaDetails",
+    "RelativePath": "api/Projekcije/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.ProjekcijaViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.RezervacijeController",
+    "Method": "GetRezervacije",
+    "RelativePath": "api/Rezervacije",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RezervacijeBioskopskihKarata.Models.Rezervacije, RezervacijeBioskopskihKarata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.RezervacijeController",
+    "Method": "PostRezervacije",
+    "RelativePath": "api/Rezervacije",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rezervacije",
+        "Type": "RezervacijeBioskopskihKarata.Models.Rezervacije",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Rezervacije",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.RezervacijeController",
+    "Method": "GetRezervacije",
+    "RelativePath": "api/Rezervacije/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Rezervacije",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.RezervacijeController",
+    "Method": "PutRezervacije",
+    "RelativePath": "api/Rezervacije/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rezervacije",
+        "Type": "RezervacijeBioskopskihKarata.Models.Rezervacije",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.RezervacijeController",
+    "Method": "DeleteRezervacije",
+    "RelativePath": "api/Rezervacije/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.RezervacijeController",
+    "Method": "GetRezervacijeByProjekcija",
+    "RelativePath": "api/Rezervacije/ByProjekcija/{projekcijaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projekcijaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RezervacijeBioskopskihKarata.Models.RezervacijaViewModel, RezervacijeBioskopskihKarata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.RezervacijeController",
+    "Method": "CreateRezervacijaWithSeats",
+    "RelativePath": "api/Rezervacije/CreateWithSeats",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RezervacijeBioskopskihKarata.Models.RezervacijaCreateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.RezervacijaViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.RezervacijeController",
+    "Method": "GetRezervacijaDetails",
+    "RelativePath": "api/Rezervacije/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.RezervacijaViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.RezervisanaSjedistaController",
+    "Method": "GetRezervisanaSjedista",
+    "RelativePath": "api/RezervisanaSjedista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RezervacijeBioskopskihKarata.Models.RezervisanaSjedista, RezervacijeBioskopskihKarata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.RezervisanaSjedistaController",
+    "Method": "PostRezervisanaSjedista",
+    "RelativePath": "api/RezervisanaSjedista",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rezervisanaSjedista",
+        "Type": "RezervacijeBioskopskihKarata.Models.RezervisanaSjedista",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.RezervisanaSjedista",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.RezervisanaSjedistaController",
+    "Method": "GetRezervisanaSjedista",
+    "RelativePath": "api/RezervisanaSjedista/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.RezervisanaSjedista",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.RezervisanaSjedistaController",
+    "Method": "PutRezervisanaSjedista",
+    "RelativePath": "api/RezervisanaSjedista/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rezervisanaSjedista",
+        "Type": "RezervacijeBioskopskihKarata.Models.RezervisanaSjedista",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.RezervisanaSjedistaController",
+    "Method": "DeleteRezervisanaSjedista",
+    "RelativePath": "api/RezervisanaSjedista/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.SaleController",
+    "Method": "GetSale",
+    "RelativePath": "api/Sale",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RezervacijeBioskopskihKarata.Models.Sale, RezervacijeBioskopskihKarata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.SaleController",
+    "Method": "PostSale",
+    "RelativePath": "api/Sale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sale",
+        "Type": "RezervacijeBioskopskihKarata.Models.Sale",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Sale",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.SaleController",
+    "Method": "GetSale",
+    "RelativePath": "api/Sale/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Sale",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.SaleController",
+    "Method": "PutSale",
+    "RelativePath": "api/Sale/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sale",
+        "Type": "RezervacijeBioskopskihKarata.Models.Sale",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.SaleController",
+    "Method": "DeleteSale",
+    "RelativePath": "api/Sale/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.SjedistaController",
+    "Method": "GetSjedista",
+    "RelativePath": "api/Sjedista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RezervacijeBioskopskihKarata.Models.Sjedista, RezervacijeBioskopskihKarata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.SjedistaController",
+    "Method": "PostSjedista",
+    "RelativePath": "api/Sjedista",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sjedista",
+        "Type": "RezervacijeBioskopskihKarata.Models.Sjedista",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Sjedista",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.SjedistaController",
+    "Method": "GetSjedista",
+    "RelativePath": "api/Sjedista/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Sjedista",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.SjedistaController",
+    "Method": "PutSjedista",
+    "RelativePath": "api/Sjedista/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sjedista",
+        "Type": "RezervacijeBioskopskihKarata.Models.Sjedista",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.SjedistaController",
+    "Method": "DeleteSjedista",
+    "RelativePath": "api/Sjedista/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.SjedistaController",
+    "Method": "GetSjedistaByProjekcija",
+    "RelativePath": "api/Sjedista/Projekcija/{projekcijaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projekcijaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RezervacijeBioskopskihKarata.ViewModels.SjedistaViewModel, RezervacijeBioskopskihKarata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.SjedistaController",
+    "Method": "GetSjedistaStatusByProjekcija",
+    "RelativePath": "api/Sjedista/ZaProjekciju/{projekcijaId}/Status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projekcijaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RezervacijeBioskopskihKarata.Models.SjedisteStatusViewModel, RezervacijeBioskopskihKarata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.TerminiController",
+    "Method": "GetTermini",
+    "RelativePath": "api/Termini",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RezervacijeBioskopskihKarata.Models.Termini, RezervacijeBioskopskihKarata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.TerminiController",
+    "Method": "PostTermini",
+    "RelativePath": "api/Termini",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "termini",
+        "Type": "RezervacijeBioskopskihKarata.Models.Termini",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Termini",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.TerminiController",
+    "Method": "GetTermini",
+    "RelativePath": "api/Termini/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RezervacijeBioskopskihKarata.Models.Termini",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.TerminiController",
+    "Method": "PutTermini",
+    "RelativePath": "api/Termini/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "termini",
+        "Type": "RezervacijeBioskopskihKarata.Models.Termini",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RezervacijeBioskopskihKarata.Controllers.TerminiController",
+    "Method": "DeleteTermini",
+    "RelativePath": "api/Termini/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
